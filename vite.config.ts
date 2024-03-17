@@ -4,6 +4,5 @@ import cesium from 'vite-plugin-cesium';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Geospatial/',
   plugins: [react(), cesium()],
 });
