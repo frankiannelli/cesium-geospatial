@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Geospatial">
       <div
         className="App"
         style={{ display: 'grid', gridTemplateColumns: '1fr 3fr' }}
